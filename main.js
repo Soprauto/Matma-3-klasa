@@ -51,7 +51,8 @@ function bazaObliczen(baza, oprtr, baza2 = null) {
       operator.innerHTML = oprtr;
       cyfra2.innerHTML = liczba2;
       wynikDzialania = operacje[oprtr](liczba1, liczba2); // wyciągnięcie funkcji arytmetycznej z obiektu operacje
-      historia = `${liczba1} ${oprtr} ${liczba2} = ${wynikDzialania}` // uprościłem zapis tekstu z wieloma parametrami, jeżeli jest Pan ciekawy proszę sobie wyszukować "interpolacja js"
+      historia = `${liczba1} ${oprtr} ${liczba2} = ${wynikDzialania}` // uprościłem zapis tekstu z wieloma parametrami, jeżeli jest Pan ciekawy proszę sobie wyszukać "interpolacja js"
+
 }
 
 function dodawanie() {
